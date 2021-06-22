@@ -239,30 +239,5 @@ void menu()
 
 int main()
 {
-    addFirst(10);
-    addFirst(20);
-    addFirst(30);
-    addFirst(40);
-
-    print();
-
-    addLast(23);
-    addLast(44);
-    addLast(51);
-    addLast(22);
-    print();
-    addAnyWhere(777, 10, 0);
-    print();
-    deleteLast();
-    print();
-
-    deleteFirst();
-    print();
-
-    deleteFirst();
-    print();
-
-    deleteGivenNode(777);
-    print();
-
+    menu();
 }
