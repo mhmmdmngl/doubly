@@ -199,7 +199,7 @@ void menu()
                 printf("enter data for insert first ... ");
                 scanf("%d", &data);
                 addFirst(data);
-                print(start);
+                print();
                 break;
             case 3:
                 printf("enter data for insert before position... ");
@@ -207,7 +207,7 @@ void menu()
                 printf("which node to insert before on");
                 scanf("%d", &position);
                 addAnyWhere(data, position, 1);
-                print(start);
+                print();
                 break;
             case 4:
                 printf("enter data for insert After position... ");
@@ -215,21 +215,21 @@ void menu()
                 printf("which node to insert After on");
                 scanf("%d", &position);
                 addAnyWhere(data, position, 0);
-                print(start);
+                print();
                 break;
             case 5:
                 deleteLast();
-                print(start);
+                print();
                 break;
             case 6:
                 deleteFirst();
-                print(start);
+                print();
                 break;
             case 7:
                 printf("Which node data do you want to delete?... ");
                 scanf("%d", &data);
                 deleteGivenNode(data);
-                print(start);
+                print();
                 break;
 
         }
